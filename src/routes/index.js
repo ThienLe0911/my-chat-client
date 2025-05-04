@@ -1,4 +1,5 @@
-const hostname = 'http://localhost:5005';
+// const hostname = 'http://localhost:5005';
+const hostname = 'https://my-chat-server-59hl.onrender.com';
 
 const login = `${hostname}/api/auth/login`;
 const register = `${hostname}/api/auth/register`;

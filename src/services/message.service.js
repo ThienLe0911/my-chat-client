@@ -24,7 +24,7 @@ const getMessagesByConversation = async (conversationId) => {
   const token = localStorage.getItem("token");
   try {
     const res = await axios.get(
-      `http://localhost:5005/api/messages/${conversationId}`,
+      `https://my-chat-server-59hl.onrender.com/api/messages/${conversationId}`,
 
       {
         headers: {
